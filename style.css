@@ -9,22 +9,15 @@
  
 
 * {
-
     padding: 0px;
-
     margin: 0px;
-
 }
 
  
 
 body {
-
     background-color: orange;
-
     font-family: Arial, Helvetica, sans-serif;
-   
-
 }
 
 .saude {
@@ -36,20 +29,17 @@ body {
 header {
 
     background-image:linear-gradient(to right, rgba(255, 255, 255, 0.76) ,  transparent);
-
     width: 90%;
-
     padding: 10px;
-
-   
-
 }
 
  
 
 h1 {
 
+    width: 70%;
     font-family: 'Fugaz One', cursive;
+    max-width: 800px;
 
 }
 
