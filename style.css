@@ -115,6 +115,18 @@ margin-bottom: 20px;
 
 }
 
+.nome2 {
+    font-size: 15px;
+   margin-bottom: 20px;
+   color: white;
+   margin-top: -10px;
+    width: 70%;
+    background-image:linear-gradient(to right, black ,  transparent);
+   margin: auto;
+   text-align: justify;
+   padding: 5px;
+   }
+
  img {
 
     margin-top: 10px;
