@@ -120,11 +120,11 @@ margin-bottom: 20px;
    margin-bottom: 20px;
    color: white;
    margin-top: -10px;
-    width: 70%;
+    width: 69%;
     background-image:linear-gradient(to right, black ,  transparent);
    margin: auto;
-   text-align: justify;
    padding: 5px;
+   max-width: 800px;
    }
 
  img {
