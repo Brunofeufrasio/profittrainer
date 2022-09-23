@@ -127,8 +127,8 @@ margin-bottom: 20px;
    }
 
  img {
-
     margin-top: 10px;
+    margin-left: -10px;
     text-align: center;
     width: 70%;
     max-width: 800px;
