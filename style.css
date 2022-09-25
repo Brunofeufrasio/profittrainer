@@ -109,6 +109,12 @@ p {
     
 }
 
+.aviso {
+    font-size: 12px;
+    color: red;
+    font-style: italic;
+}
+
 
 .nome {
  font-size: 12px;
@@ -124,9 +130,7 @@ margin-bottom: 20px;
     margin: auto;
     padding: 5px;
     max-width: 800px; 
-    margin-top: -4px;
-    margin-bottom: 10px;
-
+    margin-top: -4px;   
    }
 
  img {
@@ -155,7 +159,7 @@ margin-bottom: 20px;
 }
 
 .imc {
-
+    font-size: 12px;
     padding: 5px;
     background-image:linear-gradient(to right,rgba(0, 0, 0, 0.5) , rgba(255, 255, 255, 0.596) , transparent);
     width: 90%;
