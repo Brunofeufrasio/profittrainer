@@ -6,7 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
- 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@500&display=swap');
+
 
 * {
     padding: 0px;
@@ -17,7 +20,7 @@
 
 body {
    background-color: orange;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
    
 }
 
@@ -29,7 +32,6 @@ body {
  
 
 header {
-
     background-image:linear-gradient(to right, rgba(255, 255, 255, 0.76) ,  transparent);
     width: 90%;
     padding: 10px;
@@ -38,10 +40,9 @@ header {
  
 
 h1 {
-    
     width: 70%;
-    font-family: 'Fugaz One', cursive;
     max-width: 800px; 
+    
     
 }
 
@@ -62,52 +63,46 @@ h2 , h3 {
     margin: auto;
     padding: 5px;
     max-width: 800px; 
-
 }
 
  
 
 nav {
-
     background-image:linear-gradient(to right, black ,  transparent);
-
     padding: 3px;
-
     width: 70%;
-
    font-size: 10px;
-   
 }
 
  
 
 nav > a {
-
     text-decoration: none;
     color: white;
     padding: 10px;
-
+    
 } 
 
 article {
     padding: 10px;
     margin: auto;
     text-align: center;
-    
+    font-size: 16px;
 }
 
  
 
 p {
-
     padding: 5px;
     background-image:linear-gradient(to right, rgb(255, 255, 255) , rgba(255, 255, 255, 0.596) , transparent);
     width: 90%;
     margin: auto;
     text-align: justify;
-    max-width: 800px;
+    max-width: 800px; 
+    font-family: 'Athiti', sem serifa;
     
 }
+
 
 .aviso {
     font-size: 12px;
@@ -120,6 +115,7 @@ p {
  font-size: 12px;
 margin-top: -18px;
 margin-bottom: 20px;
+font-family: 'Athiti', sem serifa;
 
 }
 
