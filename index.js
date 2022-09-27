@@ -9,17 +9,17 @@ const calcIMC = () => {
     let classification = ''
 
     if (imc < 18.5) {
-      classification = 'Abaixo do peso'
+      classification = ' Você está baixo do peso '
     } else if (imc < 25) {
-      classification = 'Peso normal'
+      classification = ' Seu peso está normal '
     } else if (imc < 30) {
-      classification = 'Acima do peso'
+      classification = ' Você está acima do peso '
     } else if (imc < 35) {
-      classification = 'Obesidade Grau I'
+      classification = ' Você está com Obesidade Grau I '
     } else if (imc < 41) {
-      classification = 'Obesidade Grau II'
+      classification = ' Você está com Obesidade Grau II '
     } else {
-      classification = 'Obesidade Grau III'
+      classification = ' Você está com Obesidade Grau III '
     }
     
     resultado.innerHTML = `IMC: ${imc} (${classification})`
