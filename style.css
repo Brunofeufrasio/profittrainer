@@ -110,6 +110,7 @@ p {
     text-align: justify;
     max-width: 800px; 
     font-family: 'Athiti', sem serifa;  
+   
 }
 
 
@@ -126,6 +127,14 @@ margin-top: -18px;
 margin-bottom: 20px;
 font-family: 'Athiti', sem serifa;
 
+
+}
+
+.nome > a {
+    color: black;
+    font-weight: bolder;
+    font-style: italic
+   
 }
 
 .nome2 {
@@ -163,6 +172,11 @@ font-family: 'Athiti', sem serifa;
     height: 90%;
 }
 
+.aviso > a {
+    color: red;
+    font-weight: bolder;
+}
+
 .imc {
     font-size: 12px;
     padding: 5px;
@@ -178,6 +192,7 @@ font-family: 'Athiti', sem serifa;
  a {
     text-decoration: none;
     color: blue;
+    
 }
 
  footer {
