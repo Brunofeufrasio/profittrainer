@@ -21,27 +21,23 @@
  
 
 body {
-   background-color: orange;
- 
-  
-   
-   
+   background-color: black;  
 }
 
 main {
-    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
-    
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif; 
 }
 
 .saude {
+    background-image: linear-gradient(to right, orange, transparent);
    margin: 0px;
    font-size: 12px;
+   color: black;
 }
 
  
 
-header {
-   
+header { 
     width: 90%;
     padding: 10px;
 }
@@ -50,42 +46,47 @@ header {
 
 h1 {
 
-    color: rgb(70, 36, 19)  ;
+    color: orange;
     width: 70%;
     max-width: 800px; 
     font-family: 'Stick No Bills', sans-serif;
     font-size: 30px;
-    background-image:linear-gradient(to right, rgba(255, 255, 255, 0.76) ,  transparent);
     padding-left: 20px;
 }
 
 .historia {  
     padding: 5px;
-    background-image:linear-gradient(to right, rgb(255, 255, 255) , rgba(255, 255, 255, 0.596) , transparent);
+    background-image:linear-gradient(to right, rgb(15, 15, 15),  transparent);
     width: 90%;
     margin: auto;
-    text-align: center;
+    text-align: justify;
     max-width: 800px; 
     font-family: 'Stick No Bills', sans-serif;
+    font-size: 23px;
+    color: orange;
+   
     
 }
 
  
 
 h2 , h3 {
-    color: white;
-    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.658) ,  transparent);
+    
     width: 90%;
     margin: auto;
     padding: 5px;
     max-width: 800px; 
+    color: orange;
+    font-family: 'Stick No Bills', sans-serif;
+    text-align: justify;
+    font-size: 23px;
+   
    
 }
 
  
 
 nav {
-    background-image:linear-gradient(to right, black ,  transparent);
     padding: 3px;
     width: 70%;
    font-size: 10px;
@@ -97,9 +98,7 @@ nav {
 nav > a {
     text-decoration: none;
     color: white;
-    padding: 10px;
-    
-    
+    padding: 10px;  
 } 
 
 article {
@@ -114,13 +113,12 @@ article {
 
 p {
     padding: 5px;
-    background-image:linear-gradient(to right, rgb(255, 255, 255) , rgba(255, 255, 255, 0.596) , transparent);
     width: 90%;
     margin: auto;
     text-align: justify;
     max-width: 800px; 
     font-family: 'Athiti', sem serifa;  
-   
+   color: rgb(202, 202, 202);
 }
 
 
@@ -138,23 +136,25 @@ margin-bottom: 20px;
 font-family: 'Athiti', sem serifa;
 
 
+
 }
 
 .nome > a {
     color: black;
-    font-weight: bolder;
-    font-style: italic
+    font-style: italic;
+    color: orange;
    
 }
 
 .nome2 {
-    color: white;
-    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.658) ,  transparent);
+    color: orange;
+    background-image:linear-gradient(to right, rgb(15, 15, 15) ,  transparent);
     width: 90%;
     margin: auto;
     padding: 5px;
     max-width: 800px; 
     margin-top: -4px;   
+    
    }
 
  img {
@@ -184,30 +184,28 @@ font-family: 'Athiti', sem serifa;
 
 .aviso > a {
     color: red;
-    font-weight: bolder;
+    
 }
 
 .imc {
+    background-color: white;
     font-size: 12px;
     padding: 5px;
-    background-image:linear-gradient(to right,rgba(0, 0, 0, 0.5) , rgba(255, 255, 255, 0.596) , transparent);
     width: 90%;
     margin: auto;
     text-align: center;
     max-width: 800px; 
-   
-    
+    color: blue;   
 }
 
  a {
     text-decoration: none;
-    color: blue;
-    
+   
 }
 
  footer {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.808);
+    color: orange;
+   
     font-size: 12px;
     padding: 2px;
     margin-top: 20px;
